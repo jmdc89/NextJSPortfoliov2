@@ -69,23 +69,20 @@ const Header = () => {
         {/* Social Icons */}
         <SocialIcon 
         url="https://www.linkedin.com/in/jos%C3%A9-manuel-dom%C3%ADnguez-425b1b113/"
-        fgColor = 'black'
-        // fgColor={ theme === 'light' ? "black" : "gray" }
+        fgColor={ theme === 'light' ? "black" : "gray" }
         bgColor="transparent"
         />
 
         <SocialIcon 
         url="https://github.com/jmdc89" 
-        fgColor = 'black'
-        // fgColor={ theme === 'light' ? "black" : "gray" }
+        fgColor={ theme === 'light' ? "black" : "gray" }
         bgColor="transparent"
         />
 
         <SocialIcon
         className="cursor-pointer"
         network="email"
-        fgColor = 'black'
-        // fgColor={ theme === 'light' ? "black" : "gray" }
+        fgColor={ theme === 'light' ? "black" : "gray" }
         bgColor="transparent"
         />
 
