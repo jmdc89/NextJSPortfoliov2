@@ -1,3 +1,4 @@
+import BackgroundCircles from "@/components/BackgroundCircles";
 import Button from "@/components/Button"
 import {Cursor, useTypewriter} from "react-simple-typewriter";
 
@@ -24,6 +25,7 @@ const Hero = () => {
     // </section>
 
     <div>
+      <BackgroundCircles />
       <h1>
         <span className="text-blue-900 dark:text-red-200">{text}</span>
         <Cursor cursorColor="blue" />
