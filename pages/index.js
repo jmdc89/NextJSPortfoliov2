@@ -6,6 +6,6 @@ export default function Home() {
     <section id="hero">
       <Hero />
     </section>
-    
+
   )
 }
