@@ -24,7 +24,7 @@ const Hero = () => {
     //   >Hire Me!</Button>
     // </section>
 
-    <div>
+    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overlflow-hidden">
       <BackgroundCircles />
       <h1>
         <span className="text-blue-900 dark:text-red-200">{text}</span>

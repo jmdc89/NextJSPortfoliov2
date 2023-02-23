@@ -4,7 +4,7 @@ import Head from "next/head"
 
 const Layout = ({children}) => {
   return (
-    <>
+    <div className="h-screen snap-y snap-mandatory overflow-scroll z-0">
     <Head>
        <title>Jmdc's Portfolio</title> 
     </Head>
@@ -15,7 +15,7 @@ const Layout = ({children}) => {
         </main>
         <Footer/>
     </div>
-    </>
+    </div>
   )
 }
 
