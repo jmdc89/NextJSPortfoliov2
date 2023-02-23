@@ -7,8 +7,8 @@ const Hero = () => {
   const [text, count] = useTypewriter({
       words: [
         "Hi, The name's Jose",
-        "Coffee Lover",
-        "Code lover"
+        "Team work lover",
+        "AIU lover"
       ],
       loop: true,
       delay: 2000,
