@@ -34,9 +34,9 @@ const Hero = () => {
       />
       <div>
         <h2 className="text-sm dark:text-gray-500 text-gray-900 pb-2 px-5 tracking-[5px]"> Architect_Computational Designer_Software Developer</h2>
-        <h1>
-          <span className="text-blue-900 dark:text-red-200">{text}</span>
-          <Cursor cursorColor="blue" />
+        <h1 className="text-2xl lg:text-6xl font-semibold px-10">
+          <span className="mr-3 text-gray-900 dark:text-gray-500">{text}</span>
+          <Cursor cursorColor="gray" />
         </h1>
       </div>
       
