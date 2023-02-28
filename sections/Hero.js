@@ -33,7 +33,7 @@ const Hero = () => {
         src={MeImage}
       />
       <div>
-        <h2 className="text-sm dark:text-gray-500 text-gray-900"> Arquitect_Computationa Designer_Software Developer</h2>
+        <h2 className="text-sm dark:text-gray-500 text-gray-900 pb-2 px-5 tracking-[5px]"> Architect_Computational Designer_Software Developer</h2>
         <h1>
           <span className="text-blue-900 dark:text-red-200">{text}</span>
           <Cursor cursorColor="blue" />
