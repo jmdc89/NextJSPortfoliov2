@@ -1,6 +1,8 @@
 import BackgroundCircles from "@/components/BackgroundCircles";
 import Button from "@/components/Button"
 import {Cursor, useTypewriter} from "react-simple-typewriter";
+import Image from "next/image";
+import MeImage from '../images/me.png'
 
 const Hero = () => {
 
@@ -26,6 +28,7 @@ const Hero = () => {
 
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overlflow-hidden">
       <BackgroundCircles />
+      
       <h1>
         <span className="text-blue-900 dark:text-red-200">{text}</span>
         <Cursor cursorColor="blue" />
