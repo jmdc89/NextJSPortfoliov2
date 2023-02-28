@@ -28,11 +28,18 @@ const Hero = () => {
 
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overlflow-hidden">
       <BackgroundCircles />
+      <Image 
+        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        src={MeImage}
+      />
+      <div>
+        <h2 className="text-sm dark:text-gray-500 text-gray-900"> Arquitect_Computationa Designer_Software Developer</h2>
+        <h1>
+          <span className="text-blue-900 dark:text-red-200">{text}</span>
+          <Cursor cursorColor="blue" />
+        </h1>
+      </div>
       
-      <h1>
-        <span className="text-blue-900 dark:text-red-200">{text}</span>
-        <Cursor cursorColor="blue" />
-      </h1>
     </div>
 
   )
