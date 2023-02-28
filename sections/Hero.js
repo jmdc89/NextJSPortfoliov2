@@ -29,7 +29,7 @@ const Hero = () => {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overlflow-hidden">
       <BackgroundCircles />
       <Image 
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        className="relative rounded-full h-40 w-40 mx-auto object-cover"
         src={MeImage}
       />
       <div>
