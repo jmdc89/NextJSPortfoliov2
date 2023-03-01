@@ -3,6 +3,7 @@ import Button from "@/components/Button"
 import {Cursor, useTypewriter} from "react-simple-typewriter";
 import Image from "next/image";
 import MeImage from '../images/me.png'
+import Link from "next/link";
 
 const Hero = () => {
 
@@ -38,6 +39,26 @@ const Hero = () => {
           <span className="mr-3 text-gray-900 dark:text-gray-500">{text}</span>
           <Cursor cursorColor="gray" />
         </h1>
+
+        <div className="pt-5">
+          <Link href="#about">
+          <button className="heroButton">About</button>
+          </Link>
+
+          <Link href="#experience">
+          <button className="heroButton">Experience</button>
+          </Link>
+
+          <Link href="#skill">
+          <button className="heroButton">Skill</button>
+          </Link>
+
+          <Link href="#projects">
+          <button className="heroButton">Projects</button>
+          </Link>
+          
+        </div>
+        
       </div>
       
     </div>
