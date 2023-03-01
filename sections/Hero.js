@@ -4,6 +4,7 @@ import {Cursor, useTypewriter} from "react-simple-typewriter";
 import Image from "next/image";
 import MeImage from '../images/me.png'
 import Link from "next/link";
+import Arrows from "@/components/Arrows";
 
 const Hero = () => {
 
@@ -60,6 +61,8 @@ const Hero = () => {
         </div>
         
       </div>
+
+      <Arrows />
       
     </div>
 
