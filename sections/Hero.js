@@ -33,6 +33,8 @@ const Hero = () => {
       <Image 
         className="relative rounded-full h-40 w-40 mx-auto object-cover"
         src={MeImage}
+        alt="Hero"
+        priority
       />
       <div>
         <h2 className="text-sm dark:text-gray-500 text-gray-900 pb-2 px-5 tracking-[5px]"> Architect_Computational Designer_Software Developer</h2>
