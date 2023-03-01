@@ -10,9 +10,10 @@ const Hero = () => {
 
   const [text, count] = useTypewriter({
       words: [
-        "Hi, The name's Jose",
-        "Team work lover",
-        "AIU lover"
+        "Architect",
+        "University Professor",
+        "Computational Designer",
+        "Software Developer"
       ],
       loop: true,
       delay: 2000,
@@ -37,7 +38,7 @@ const Hero = () => {
         priority
       />
       <div>
-        <h2 className="text-sm dark:text-gray-500 text-gray-900 pb-2 px-5 tracking-[5px]"> Architect_Computational Designer_Software Developer</h2>
+        <h2 className="text-lg dark:text-gray-500 text-gray-900 pb-2 px-5 tracking-[5px]">"Hi, The name's Jose",</h2>
         <h1 className="text-2xl lg:text-6xl font-semibold px-10">
           <span className="mr-3 text-gray-900 dark:text-gray-500">{text}</span>
           <Cursor cursorColor="gray" />
