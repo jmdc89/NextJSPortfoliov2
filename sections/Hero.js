@@ -27,7 +27,7 @@ const Hero = () => {
     //   >Hire Me!</Button>
     // </section>
 
-    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overlflow-hidden">
+    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overlflow-hidden z-0">
       <BackgroundCircles />
       <Image 
         className="relative rounded-full h-40 w-40 mx-auto object-cover"
