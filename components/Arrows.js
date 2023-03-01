@@ -1,7 +1,13 @@
 import { motion } from "framer-motion";
 import React from "react";
+import { useTheme } from "next-themes";
 
 function Arrows() {
+
+    const {theme} = useTheme()
+    console.log(theme)
+
+
   return (
     <div className="arrows-container">
       <motion.svg
@@ -23,7 +29,7 @@ function Arrows() {
         <motion.path
           className="a1"
           d="M0 0 L30 32 L60 0"
-          stroke="#F7AB0A"
+          stroke={theme == "dark" ? "#F7AB0A" : "#1e3a8a"}
           strokeWidth="1"
           fill="transparent"
           animate={{
@@ -34,7 +40,7 @@ function Arrows() {
         <motion.path
           className="a2"
           d="M0 20 L30 52 L60 20"
-          stroke="#F7AB0A"
+          stroke={theme == "dark" ? "#F7AB0A" : "#1e3a8a"}
           strokeWidth="1"
           fill="transparent"
           animate={{
@@ -45,7 +51,7 @@ function Arrows() {
         <motion.path
           className="a3"
           d="M0 40 L30 72 L60 40"
-          stroke="#F7AB0A"
+          stroke={theme == "dark" ? "#F7AB0A" : "#1e3a8a"}
           strokeWidth="1"
           fill="transparent"
           animate={{
