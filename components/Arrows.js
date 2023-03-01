@@ -5,7 +5,6 @@ import { useTheme } from "next-themes";
 function Arrows() {
 
     const {theme} = useTheme()
-    console.log(theme)
 
 
   return (
