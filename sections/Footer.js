@@ -1,8 +1,8 @@
 
 const Footer = () => {
   return (
-    <footer className="py-6 text-center text-gray-500 text-sm">
-      <span className="text-gray-900 dark:text-blue-200 font-bold text-lg mr-2">Cand</span>&copy; {new Date().getFullYear()} All Rights Reserved
+    <footer className="py-6 mt-10 text-center text-gray-500 text-sm">
+      <span className="text-blue-900 dark:text-[#F7AB0A] font-bold text-lg mr-2">JMDC</span>&copy; {new Date().getFullYear()} All Rights Reserved
     </footer>
   )
 }
