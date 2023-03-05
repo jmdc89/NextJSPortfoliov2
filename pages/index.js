@@ -1,6 +1,6 @@
 import About from "@/sections/About";
 import Hero from "@/sections/Hero";
-import WorkExperince from "@/sections/WorkExperince";
+import WorkExperince from "@/sections/WorkExperience";
 
 export default function Home() {
   return (
