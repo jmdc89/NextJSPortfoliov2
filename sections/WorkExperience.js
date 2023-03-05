@@ -1,5 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import ExperienceCard from '@/components/ExperienceCard'
 
 function WorkExperience() {
   return (
@@ -13,6 +14,7 @@ function WorkExperience() {
         </h3>
 
         <div>
+          <ExperienceCard />
           {/* ExperienceCard */}
         </div>
     </motion.div>
