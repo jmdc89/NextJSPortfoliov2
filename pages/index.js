@@ -1,5 +1,6 @@
 import About from "@/sections/About";
 import Hero from "@/sections/Hero";
+import WorkExperince from "@/sections/WorkExperince";
 
 export default function Home() {
   return (
@@ -13,6 +14,10 @@ export default function Home() {
     {/* <section id="about" className="snap-center"> */}
     <section id="about">
       <About />
+    </section>
+
+    <section id="experience">
+      <WorkExperince />
     </section>
 
     </>
