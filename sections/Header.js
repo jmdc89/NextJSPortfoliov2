@@ -50,7 +50,7 @@ const Header = () => {
   return (
     <header 
     // className="sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-100 xl:items-center"
-    className="sticky top-0 p-5 flex items-center justify-between"
+    className="sticky top-0 p-5 flex items-center justify-between z-50"
     >
       
       <motion.div
