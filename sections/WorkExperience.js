@@ -15,7 +15,8 @@ function WorkExperience() {
 
         <div>
           <ExperienceCard />
-          {/* ExperienceCard */}
+          <ExperienceCard />
+          <ExperienceCard />
         </div>
     </motion.div>
   )
