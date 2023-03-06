@@ -26,6 +26,24 @@ function ExperienceCard() {
           alt="aiu logo"
         />
         </motion.div>
+
+        <div>
+          <h4>FabLab Coordinator</h4>
+          <p>American International University</p>
+          <div>
+            {/* Tech used */}
+            {/* Tech used */}
+            {/* Tech used */}
+          </div>
+          <p>Started work... - Ended...</p>
+          <ul>
+            <li>Summary Points</li>
+            <li>Summary Points</li>
+            <li>Summary Points</li>
+            <li>Summary Points</li>
+          </ul>
+        </div>
+        
     </article>
   )
 }
