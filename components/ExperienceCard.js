@@ -8,7 +8,7 @@ import unespImage from '../images/unesp.png'
 
 function ExperienceCard() {
   return (
-    <article>
+    <article className='flex  flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px]'>
         <motion.div
           initial={{
             y: -100,
@@ -51,7 +51,7 @@ function ExperienceCard() {
            />
 
           </div>
-          <p>Started work... - Ended...</p>
+          <p className='uppercase py-5 text-gray-300'>Started work... - Ended...</p>
           <ul className='list-disc space-y-4 ml-5 text-lg'>
             <li >Summary Points</li>
             <li>Summary Points</li>
