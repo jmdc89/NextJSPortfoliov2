@@ -9,20 +9,21 @@ function ExperienceCard() {
   return (
     <article>
         <motion.div
-          // initial={{
-          //   x: -200,
-          //   opacity: 0,
-          // }}
-          // transition={{
-          //   duration: 1.2,
-          // }}
-          // whileInView={{opacity:1, x:0}}
-          // viewport={{once:true}}
-          // className="mt-10 mb-20 md:mb-0 flex-shrink-0 "
+          initial={{
+            y: -100,
+            opacity: 0,
+          }}
+          transition={{
+            duration: 1.2,
+          }}
+          whileInView={{opacity:1, y:0}}
+          viewport={{once:true}}
+          className="flex relative"
         >
         <Image
-          className="w-56 md:w-64 md:h-64 xl:w-[300px] xl:h-[350px]"
+          className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"
           src={aiuImage}
+          alt="aiu logo"
         />
         </motion.div>
     </article>
