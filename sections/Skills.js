@@ -18,7 +18,7 @@ function Skills() {
             Hover over a skill for current proficiency
         </h3>
 
-        <div className='absolute top-60 grid grid-cols-4 gap-5'>
+        <div className='relative grid grid-cols-4 gap-5'>
             <Skill/>
             <Skill/>
             <Skill/>
