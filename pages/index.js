@@ -1,5 +1,6 @@
 import About from "@/sections/About";
 import Hero from "@/sections/Hero";
+import Skills from "@/sections/Skills";
 import WorkExperince from "@/sections/WorkExperience";
 
 export default function Home() {
@@ -18,6 +19,10 @@ export default function Home() {
 
     <section id="experience">
       <WorkExperince />
+    </section>
+
+    <section id="skills">
+      <Skills />
     </section>
 
     </>
